@@ -7,7 +7,12 @@ reveal.js.
 
 Κατεβάστε την παρουσίαση και επεξεργαστείτε το αρχείο [index.html](index.html). Όλη η παρουσίαση είναι ουσιαστικά ένα html αρχείο. Περισσότερες πληροφορίες στον ιστότοπο του reveal-js. 
 
-Τροποποιήστε κατ' ελάχιστον τα στοιχεία που αφορούν το υποσέλιδο της παρουσίασης:
+Τροποποιήστε κατ' ελάχιστον τα στοιχεία που αφορούν το υποσέλιδο της παρουσίασης και τον τίτλο:
+```html
+<meta name="author" content="Stavros Papadakis, Open Source Team http://ostmgmt.minedu.gov.gr">
+<meta name="description" content="Τίτλος της παρουσίασης">
+```
+
 ```html
 <div id="presentationfooter">
     <small>
@@ -41,6 +46,8 @@ $app = new Extract($client, $settings);
 Για την έγχρωμη σύνταξη κώδικα χρησιμοποιείται το [highlight.js](https://highlightjs.org/).
 
 Κύριες γραμματοσειρές [Ubuntu,  Ubuntu Mono](https://fonts.google.com/?query=ubuntu).
+
+Εικονίδια με χρήση του [Font awesome](http://fontawesome.io/).
 
 # Συνεισφορά
 
