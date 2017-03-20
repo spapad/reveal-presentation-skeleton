@@ -1,0 +1,30 @@
+body {
+    background: rgba(255,255,255,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 71%, rgba(212,212,212,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(71%, rgba(246,246,246,1)), color-stop(100%, rgba(212,212,212,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 71%, rgba(212,212,212,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 71%, rgba(212,212,212,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 71%, rgba(212,212,212,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 71%, rgba(212,212,212,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d4d4', GradientType=1 );
+}
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    font-family: 'Ubuntu', monospace !important;
+} 
+.reveal h1,
+.reveal h2 { text-transform: none !important; }
+.reveal pre,
+.reveal code {
+    font-family: 'Ubuntu Mono', sans-serif !important;
+}
+.reveal section img { border: none; }
+p.small { font-size: 0.6em; }
+#presentationfooter { width: 100%; position: fixed; bottom: 1em; z-index: 1000; font-family: 'Ubuntu', monospace; color: #555; text-align: center; } 
+#presentationfooter a { color: #888; text-decoration: none; } 
+i.fa { color: #888; }
