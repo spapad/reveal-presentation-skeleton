@@ -28,3 +28,4 @@ p.small { font-size: 0.6em; }
 #presentationfooter { width: 100%; position: fixed; bottom: 1em; z-index: 1000; font-family: 'Ubuntu', monospace; color: #555; text-align: center; } 
 #presentationfooter a { color: #888; text-decoration: none; } 
 i.fa { color: #888; }
+.reveal section img.inline { margin: 0; padding: 0; max-height: 1em; }

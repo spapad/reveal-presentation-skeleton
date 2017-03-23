@@ -45,7 +45,7 @@ $app = new Extract($client, $settings);
 
 Η παρουσίαση βασίζεται στο [reveal-js](http://lab.hakim.se/reveal-js) ([github](https://github.com/hakimel/reveal.js)). 
 
-Για την έγχρωμη σύνταξη κώδικα χρησιμοποιείται το [highlight.js](https://highlightjs.org/).
+Για την έγχρωμη σύνταξη κώδικα χρησιμοποιείται το [highlight.js](https://highlightjs.org/) ([github](https://github.com/isagalaev/highlight.js)).
 
 Κύριες γραμματοσειρές [Ubuntu,  Ubuntu Mono](https://fonts.google.com/?query=ubuntu).
 
